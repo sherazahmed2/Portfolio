@@ -1,0 +1,33 @@
+#img {
+  background-image: url("../images/catories/banner3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  border-radius: 3%;
+  border: black;
+  color: black;
+  transition: 0.7s;
+  padding: 0%;
+}
+.btn:hover {
+  background-color: orange;
+  color: black;
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 5px 5px 10px #ff9800;
+  transition: 0.6s;
+}
+body{
+  font-family: "Stylish", serif;
+}
+.checked {
+  color: orange;
+}
