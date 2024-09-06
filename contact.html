@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+  ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ssrc/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--navbar-start-->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid mx-5">
+      <img src="images/catories/oooooo.png" width="70px">
+      <a class="navbar-brand text-white fw-bold p-2" href="#">Cera's</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          
+          <!--dropdowns-->
+          <div class="dropdown">
+            <button class="btn text-white fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Walls Tiles
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="bath.html">Bathroom wall tiles</a></li>
+              <li><a class="dropdown-item" href="kitchen.html">Kitchen wall tiles</a></li>
+              <li><a class="dropdown-item" href="outdoor.html">Outdoor wall tiles</a></li>
+              <li><a class="dropdown-item" href="living.html">Living room</a></li>
+              <li><a class="dropdown-item" href="bedroom .html">Bedroom</a></li>
+              <li><a class="dropdown-item" href="comerical.html">Commercial spaces tiles</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn text-white fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Floor  Tiles
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="bath.html">Bathroom wall tiles</a></li>
+              <li><a class="dropdown-item" href="kitchen.html">Kitchen wall tiles</a></li>
+              <li><a class="dropdown-item" href="outdoor.html">Outdoor wall tiles</a></li>
+              <li><a class="dropdown-item" href="living.html">Living room</a></li>
+              <li><a class="dropdown-item" href="bedroom .html">Bedroom</a></li>
+              <li><a class="dropdown-item" href="comerical.html">Commercial spaces tiles</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn text-white fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Special Tiles
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="germ.html">Germ free</a></li>
+              <li><a class="dropdown-item" href="#">Tac</a></li>
+              <li><a class="dropdown-item" href="#">Anti static</a></li>
+              <li><a class="dropdown-item" href="#">Cool roof</a></li>
+            </ul>
+          </div>
+          
+        </ul>
+      </div>
+      <nav class="navbar bg-dark">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    
+  </nav>
+  <!--form-->
+  <h1 class="fw-bold text-center mt-3 text-warning">Kindly Fill Your Info</h1>
+  <form class="row g-3 mx-2">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Full Name</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Email</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Passward</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Only 8 digits">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Message</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Decribe your problem here!">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>Karachi</option>
+        <option>Islamabad</option>
+        <option>Punjab</option>
+        <option>Peshawar</option>
+
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-outline-warning">Submit</button>
+    </div>
+  </form>
+  <div class="map mt-3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231636.10460675234!2d66.84695429453126!3d24.887264299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1723976529530!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </div>
+  <!--footer-->
+  
+  <footer class="bg-dark text-white mt-3 pt-5 pb-5">
+    <div class="container text-center text-md-left">
+      <div class="row text-centert text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Cera's</h5>
+          <p>
+            We specialize in offerning hihg-quality,stylish tiles that transform spaces with elegance and durability. Our extensive collection includes a variety of materials. Colors and patterns to suit any design preference. Whether you are renovating your home or desiging a commercial space,our expert team is dedicated to providing exceptional service and inpvative solutions to bring your vision to life.
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Support</h5>
+          <p>
+            <a href="text-uppercase mb-4 font-weight-bold text-white" class="text-white"> <a href="about.html" class="text-white">About Us</a>
+
+          </p>
+          <p>
+            <a href="text-uppercase mb-4 font-weight-bold text-white " class="text-white"><a href="contact.html" class="text-white">Contact Us</a></a></a>
+          </p>
+          <p>
+            <i class="fas fa-phone-alt mr-3"><img width="22" height="20" src="images/icons/icons8-incoming-call-32.png" alt="incoming-call"/>+923707618177</i>
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"><img width="22" height="20" src="images/icons/icons8-incoming-call-32.png" alt="incoming-call"/>+923707607098</i>
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"><img width="22" height="20" src="images/icons/icons8-email-26.png">sherazbhaibhai@gmail.com</i>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Follow Us</h5>
+          <p>
+            <a href="text-uppercase mb-4 font-weight-bold text-white" class="text-white"><img width="26" height="30" src="images/icons/icons8-tiktok-48.png" alt="tiktok"/>TikTok</a>
+
+          </p>
+          <p>
+            <a href="text-uppercase mb-4 font-weight-bold text-white" class="text-white"><img width="23" height="24" src="images/icons/icons8-instagram-24.png" alt="instagram-new--v1"/>Instagram</a>
+
+          </p>
+          <p>
+            <a href="text-uppercase mb-4 font-weight-bold text-white" class="text-white"><img width="23" height="24" src="images/icons/icons8-facebook-24.png" alt="facebook-new"/>FaceBook</a>
+
+          </p>
+          <p>
+            <a href="text-uppercase mb-4 font-weight-bold text-white" class="text-white"><img width="24" height="30" src="images/icons/icons8-youtube-48.png" alt="youtube-play"/>YouTube</a>
+
+          </p>
+          
+      </div>
+    </div>
+    
+    <hr class="mb-4">
+    <div class="row align-items-center">
+      <p><div class="col-md-7 col-lg-8">Copyrigth 2024 All rights reserved by:
+        </p>
+      
+      
+        
+      </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+"></script>
+</html>
+    
